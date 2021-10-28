@@ -1,1 +1,1 @@
-python tools/train.py configs/r3det/r3det_r50_fpn_2x_CustomizeImageSplit.py
+python tools/train.py configs/r3det/r3det_r50_fpn_2x_CustomizeImageSplit.py --gpu-ids 3
