@@ -20,3 +20,6 @@ ENV FORCE_CUDA="1"
 RUN pip install cython --no-cache-dir
 RUN pip install "git+https://github.com/open-mmlab/cocoapi.git#subdirectory=pycocotools"
 RUN pip install --no-cache-dir -e .
+RUN pip install mmcv==0.5.9
+RUN ​​apt-get update
+RUN apt-get install ffmpeg libsm6 libxext6  -y
